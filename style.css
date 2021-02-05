@@ -1,0 +1,74 @@
+body {
+    font-family: 'Noto Serif', serif;
+
+}
+
+#main {
+    background-image: url("pictures/mainbkg.png");
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 15%;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+   
+}
+.about {
+    font-family: 'Big Shoulders Display', cursive;
+    border-bottom: 1px solid #000;
+}
+
+.aboutme {
+    margin-top: 5%;
+    margin-left: 15%;
+    text-align: center;
+
+}
+.me {
+    margin-top: 5px;
+    margin-bottom: 5%;
+    border-radius: 15%;
+    float: left;
+}
+
+#work {
+    text-align: center;
+    background-color: #E3E4E7;
+}
+
+.projects {
+    font-family: 'Big Shoulders Display', cursive;
+    border-bottom: 1px solid #000;
+}
+
+.pro {
+
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+ }
+
+ .contact {
+    font-family: 'Big Shoulders Display', cursive;
+    border-bottom: 1px solid #000;
+ }
+
+ .form {
+     margin: 5%;
+ }
+.icon {
+    background-color: #38A793;
+    padding: 5%;
+}
+ i {
+     color: white;
+ }
+footer {
+    text-align: center;
+}
