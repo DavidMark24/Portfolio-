@@ -31,15 +31,17 @@ body {
 
 }
 .me {
-    margin-top: 5px;
-    margin-bottom: 5%;
+    margin-top: 20px;
+    margin-left: 10%;
     border-radius: 15%;
     float: left;
 }
 
 #work {
     text-align: center;
+    margin-top: 10%;
     background-color: #E3E4E7;
+     padding: 25px 50px 75px 100px;
 }
 
 .projects {
@@ -52,6 +54,18 @@ body {
     margin-top: 5%;
     margin-left: 10%;
     text-align: center;
+ }
+
+ .city {
+    margin-top: 20px;
+    height: 150px;
+    margin-left: 5%;
+    border-radius: 15%;
+    float: left;
+ }
+
+ #contacts {
+     margin-top: 10%;
  }
 
  .contact {
