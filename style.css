@@ -1,18 +1,26 @@
 body {
     font-family: 'Noto Serif', serif;
+    height: 100%;
 
 }
 
 #main {
-    background-image: url("pictures/mainbkg.png");
+    /* background-image: url("pictures/mainbkg.png"); */
+    background-color:  #4D5159;
     color: white;
     text-align: center;
-    background-repeat: no-repeat;
+    /* height: 100%; */
+    /* background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
-    padding: 15%;
+    background-size: cover; */
+    padding: 20%;
+    font-size: 5vw;
     font-family: 'Big Shoulders Display', cursive;
 }
+.highlight {
+    color: #38A793 ;
+}
+
 .container {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -25,21 +33,21 @@ body {
 }
 
 .aboutme {
-    margin-top: 5%;
-    margin-left: 15%;
+    margin-top: 10%;
+    margin-left: 5%;
     text-align: center;
 
 }
 .me {
-    margin-top: 20px;
-    margin-left: 10%;
+    margin-top: 15%;
+    margin-left: 5%;
     border-radius: 15%;
-    float: left;
+    
 }
 
 #work {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
     background-color: #E3E4E7;
      padding: 25px 50px 75px 100px;
 }
@@ -65,7 +73,7 @@ body {
  }
 
  #contacts {
-     margin-top: 10%;
+     margin-top: 5%;
  }
 
  .contact {

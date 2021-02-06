@@ -15,6 +15,8 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Noto+Serif&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     
     
     <link rel="stylesheet" href="style.css">
@@ -25,24 +27,25 @@
 
      <!-- Nav Bar  -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="index.html"> DJ</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="">About Me</a>
+              <a class="nav-link active" href="#project">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Work</a>
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Contact</a>
+              <a class="nav-link active" href="pictures/David-Johnson.pdf" download> Resume </a>
             </li>
           </ul>
         </div>
@@ -51,71 +54,87 @@
 
     <!-- Main Header  -->
 
-    <div id="main" class="container-fluid">
-      <h1>Hello my name is David Johnson
-        <br>
-         I am a full stack web developer.</h1>
+    <div id="main" class="container-fluid w3-animate-opacity">
+      <div class="row">
+        <div class="col">
+          <h1>Hello my name is <span class="highlight">David Johnson</span>
+            <br>
+             I am a full stack web developer.</h1>
+          </div>
+      </div>
     </div>
 
     <!-- About Me  -->
 
     <div class="container">
+      <section id="about-me">
       <h1 class="about"> About Me </h1>
-      <div class="col col-4 col-sm-12">
-        <img class="me" src="pictures/index.jpg" alt="boy with video game controller">
-      </div>
-      <div class="col col-sm-12">
-        <p class="aboutme">
-          I'm a full stack developer from Moreno Valley, CA. <br>
-           I am currently a student at University of California, Riverside.
-          <br>
-           I have a passion for creating dynamic applications and front end designs.
-        </p>
-      </div>
+        <div class="row"> 
+          <div class="col col-12 col-lg-3 col-xl-3 col-xxl-3">
+            <img class="me" src="pictures/index.jpg" alt="boy with video game controller">
+          </div>
+          <div class="col col-12 col-lg-9 col-xl-9 col-xxl-9">
+            <p class="aboutme">
+              I'm a full stack developer from Moreno Valley, CA. <br>
+               I am currently a student at University of California, Riverside.
+              <br>
+               I have a passion for creating dynamic applications and front end designs.
+            </p>
+          </div>
+        </div>
+        </section>
+       
+      
       
     </div>
 
     <!-- Portfoilo  -->
 
     <div id="work" class="container">
-      <h1 class="projects">Projects</h1>
-     <a href="https://charlestbell.github.io/ctyFaktz/"> <img class="city" src="pictures/cityfaktz.png" alt="picture of city website" srcset=""> </a>
-      <p class="pro"> City search made fun! <br>
-         A website that has useful and fun facts about your favorite cities. <br>
-         It's a new way of looking at your favorite towns!</p>
-    </div>
+      <section id="project">
+        <h1 class="projects">Projects</h1>
+        <a href="https://charlestbell.github.io/ctyFaktz/"> <img class="city" src="pictures/cityfaktz.png" alt="picture of city website" srcset=""> </a>
+         <p class="pro">CtyFaktz! City search made fun! <br>
+            A website that has useful and fun facts about your favorite cities. <br>
+            It's a new way of looking at your favorite towns!</p>
+       </div>
+      </section>
+    
 
     <!-- Contact  -->
 
     <div id="contacts" class="container">
-      <h1 class="contact">Contact</h1>
-      <form class="form">
-          <div class="form-row">
-              <div class="col">
-                  <input type="text" class="form-control" placeholder="Name">
-              </div>
-              <div class="col">
-                  <input type="text" class="form-control" placeholder="Email">
-              </div>
-          </div>
-          <div class="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+      <section id="contact">
+        <h1 class="contact">Contact</h1>
+        <form class="form">
+            <div class="form-row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Email">
+                </div>
             </div>
-          <div class="form-row text-center mt-3">
-              <div class="col">
-                  <button type="button" class="btn btn-secondary">Sumbit</button>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
               </div>
-          </div>
-      </form>
-      <div class="icon">
-       <a href="https://www.linkedin.com/in/david-johnson-0618311b6/"> <i class="fab fa-linkedin fa-3x"> </i> </a>
-       <a href="https://github.com/DavidMark24"> <i class="fab fa-github-square fa-3x"> </i> </a>
-      <a href="https://twitter.com/jaayrza"> <i class="fab fa-twitter-square fa-3x"> </i> </a>
-      </div>
-  </div>
-
+            <div class="form-row text-center mt-3">
+                <div class="col">
+                    <button type="button" class="btn btn-secondary">Sumbit</button>
+                </div>
+            </div>
+        </form>
+        <div class="icon">
+         <a href="https://www.linkedin.com/in/david-johnson-0618311b6/"> <i class="fab fa-linkedin fa-3x"> </i> </a>
+         <a href="https://github.com/DavidMark24"> <i class="fab fa-github-square fa-3x"> </i> </a>
+        <a href="https://twitter.com/jaayrza"> <i class="fab fa-twitter-square fa-3x"> </i> </a>
+        </div>
+    </div>
+      </section>
+      
   <!-- Footer  -->
+
   <footer>
     &copy; David Johnson 2021
   </footer>
